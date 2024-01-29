@@ -14,3 +14,20 @@ myTitle.textContent = "Hello World";
 // added my own paragraph with id element for testing purposes
 const myParagraph = document.getElementById("test");
 myParagraph.textContent = "I get to add my own text here using javascript instead of html";
+
+// JavaScript can be run with out using html elements, it will just run the function and display as a pop up before the html loads
+// simple function to test if iceCream = chocolate
+let iceCream = "chocolate";
+if (iceCream === "chocolate") {
+    alert("yay it is chocolate ice cream");
+} else {
+    alert("This is not chocolate ice cream");
+}
+
+// functions run in order until all functions are completed
+iceCream = "vanilla"
+if (iceCream === "chocolate") {
+    alert("yay it is chocolate ice cream");
+} else {
+    alert("This is not chocolate ice cream");
+}
