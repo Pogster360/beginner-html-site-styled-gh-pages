@@ -38,4 +38,10 @@ function simpleEquation(num1, num2, num3) {
     return result;
 }
 
-myParagraph.textContent = "The answer to (12 + 7) * 4 - 12 = " + simpleEquation(12, 7, 4)
+myParagraph.textContent = "The answer to (12 + 7) * 4 - 12 = " + simpleEquation(12, 7, 4);
+
+// The eventlistener waits for a certain action to be perforemed before completing the action
+// In this event it will create an alert when the webpage is clicked on
+document.querySelector("html").addEventListener("click", () => {
+    alert("ouch, dont poke me");
+});
